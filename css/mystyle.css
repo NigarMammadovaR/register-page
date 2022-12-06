@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.register-page{
+    height: 100vh;
+    background-color: rgba(127, 127, 187, 0.873);
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+form {
+    
+    width: 800px;
+    height: 500px;
+    display: flex;
+    
+}
+
+.form-left{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 30px; 
+}
+
+.form-right{
+    width: 50%;
+    height: 100%;
+    background-color:rgb(111, 111, 174);
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 30px;
+}
+
+.form-left h2{
+    color: blue;
+    margin-bottom: 30px;
+}
+
+.form-left input, select{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+}
+.name-group{
+    display: flex;
+    justify-content: space-between;
+
+}
+.name-group input{
+    width: 48%;
+}
+
+
+/* right */
+
+.form-right h2{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.form-right input,select{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid rgba(223, 207, 207, 0.712);
+    outline: none;
+
+}
+
+.zip{
+    display: flex;
+    justify-content: space-between;
+}
+.zip input, #zip{ 
+    width: 48%; 
+}
+
+.number{
+    display: flex;
+    justify-content: space-between;
+}
+.number input{
+    width: 48%;
+}
+
+.accept{
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    margin-top: 5px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+}
+
+.accept input{
+    width: 15px;
+    height: 15px;
+}
+
+.accept span, a{
+    color: white;
+}
+
+.form-right input[type="text"]{
+    color: white;
+    background-color:rgb(111, 111, 174);
+
+}
+.form-right input[type="number"]{
+    color: white;
+    background-color:rgb(111, 111, 174);
+}
+
+.form-right input[type="email"]{
+    color: white;
+    background-color:rgb(111, 111, 174);
+}
+
+.form-right select{
+    color: white;
+    background-color:rgb(111, 111, 174);
+}
+
+.form-right ::placeholder  {
+    color:white;
+  }
